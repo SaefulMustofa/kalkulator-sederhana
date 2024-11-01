@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- README -->
+    <!-- ini adalah sebuah aplikasi kalkulator sederhana yang didalamnya -->
+    <!-- mengimplentasikan materi function dan condition(switch) -->
+
+    <div id="calc">
+        <h1>Kalkulator Sederhana</h1>
+        <input type="text" id="angka1" placeholder="masukan angka pertama">
+        <input type="text" id="angka2" placeholder="masukan angka kedua">
+        <select id="operator">
+            <option value="tambah">Tambah</option>
+            <option value="kurang">Kurang</option>
+            <option value="kali">Kali</option>
+            <option value="bagi">Bagi</option>
+        </select>
+        <button onclick="hitung()">Hitung</button>
+        <p id="hasil"></p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
